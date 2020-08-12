@@ -9,9 +9,11 @@ def selectionSort(data):
         swap(i, lowest, data)
 
 def swap(a, b, dataList):
-    data = dataList[a]
-    dataList[a] = dataList[b]
-    dataList[b] = data
+    # data = dataList[a]
+    # dataList[a] = dataList[b]
+    # dataList[b] = data
+
+    dataList[a], dataList[b] = dataList[b], dataList[a]
 
 list = random.sample(range(100), 20)
 print(list)
