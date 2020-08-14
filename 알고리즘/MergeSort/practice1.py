@@ -10,6 +10,7 @@ def split(data):
     print('right: {}'.format(right))
     return left, right
 
-data = [1,2,3]
+data = [1, 2, 3, 4, 5]
 left, right = split(data)
 print(left, right)
+
