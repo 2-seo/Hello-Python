@@ -9,3 +9,4 @@ print("life", "is", "to short")
 # 한 줄에 결괏값 출력하기
 for i in range(0, 10):
     print(i, end=" ")
+
