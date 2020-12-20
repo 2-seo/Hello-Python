@@ -20,7 +20,7 @@ print(list(list2))
 
 # filter(func, seq)
 list3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-list3_filter = filter(lambda x: x%2==0, list3)
+list3_filter = filter(lambda x: x%2 == 0, list3)
 print(list(list3_filter))
 
 # reduce(func, seq)
